@@ -7,8 +7,11 @@ services:
   BasketDb:
     image: postgres
 
-  distributedcache:
+  DistributedCache:
     image: redis
+  
+  OrderDb:
+    image: mcr.microsoft.com/mssql/server
 
   catalog.api:
     image: ${DOCKER_REGISTRY-}catalogapi
