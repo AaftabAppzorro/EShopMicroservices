@@ -4,13 +4,11 @@
 .NET 8 Microservices: DDD, CQRS, Vertical/Clean Architecture
 
 
-This course comes from a live github aspnetrun microservices repository which verified from community with 2300+ stars and 1300+ forks.
-
-You will learn how to build Microservices on .Net platforms which used Asp.Net Web API, Docker, RabbitMQ, MassTransit, Grpc, Yarp API Gateway, PostgreSQL, Redis, SQLite, SqlServer, Marten, Entity Framework Core, CQRS, MediatR, DDD, Vertical and Clean Architecture implementation using latest codes and best practices of .NET 8 on cloud-native environments.
+This project is about Microservices on .Net platforms which used Asp.Net Web API, Docker, RabbitMQ, MassTransit, Grpc, Yarp API Gateway, PostgreSQL, Redis, SQLite, SqlServer, Marten, Entity Framework Core, CQRS, MediatR, DDD, Vertical and Clean Architecture implementation using latest codes and best practices of .NET 8 on cloud-native environments.
 
 You will develop e-commerce modules over Product, Basket, Discount and Ordering microservices with NoSQL (PostgreSQL DocumentDB, Redis) and Relational databases (SQLite, Sql Server) with communicating over RabbitMQ Event Driven Communication and using Yarp API Gateway. You can find Microservices Architecture and Step by Step Implementation on .NET which step by step developing this course with extensive explanations and details.
 
-Along with this you’ll develop following microservices and items:
+This project covers the following:
 
 Catalog microservice which includes;
 
@@ -110,4 +108,10 @@ Orchestrating of microservices and backing services (databases, distributed cach
 
 Override Environment variables
 
-On top of all these, you'll learn how to write quality code, not just how to build microservices. In this course you will see the demonstrating a layered application architecture with DDD best practices. Implements NLayer Hexagonal architecture (Core, Application, Infrastructure and Presentation Layers) and Domain Driven Design (Entities, Repositories, Domain/Application Services, DTO's...) and aimed to be a Clean Architecture, with applying SOLID principles in order to use for a project template. Also implements best practices like loosely-coupled, dependency-inverted architecture and using design patterns such as Dependency Injection, logging, validation, exception handling and so on.
+Layered application architecture with DDD best practices
+
+NLayer Hexagonal architecture (Core, Application, Infrastructure and Presentation Layers) and Domain Driven Design (Entities, Repositories, Domain/Application Services, DTO's...) 
+
+Clean Architecture, with applying SOLID principles in order to use for a project template
+
+Loosely-coupled, dependency-inverted architecture and using design patterns such as Dependency Injection, logging, validation, exception handling and so on.
